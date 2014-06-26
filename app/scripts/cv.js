@@ -34,7 +34,7 @@ var CV = {
             });
             f.push(n),
             setTimeout(function() {
-                var t = e.text(703, 250, "{ Empty }\nStacker").attr({
+                var t = e.text(703, 250, "生命不息\n学习不止").attr({
                     "font-size": 22,
                     fill: "#fff",
                     "font-family": s
