@@ -1,4 +1,5 @@
 $ ->
+   initGalleryScript()
    $("#intro .text, #intro .contact").fadeIn(2e3)
    $(".main").onepage_scroll {
       sectionContainer: "section"     # sectionContainer accepts any kind of selector in case you don't want to use section
