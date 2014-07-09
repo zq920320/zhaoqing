@@ -292,7 +292,9 @@ img[src='http://icon.cnzz.com/img/pic1.gif'] {
 
 .skillsList .others {
     background:#998566;}
-
+.skillsList .test {
+    background:#003DFF;
+}
 #skillsArc {
     float:left;
     width:830px;

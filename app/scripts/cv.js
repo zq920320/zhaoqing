@@ -105,13 +105,18 @@ var CV = {
             kind: "Others",
             score: "65",
             color: "#998566"
+        },{
+            kind: "Test",
+            score:"70",
+            color:"#003DFF"
         }],
         h = e.set(),
         p = {
             "arc-python": [[250, "Tonado"], [200, "Web.py"],  [300, "Scrapy"]],
             "arc-database": [[300, "MongoDB"], [250, "Reids"], [150, "MySQL"],[150,"Oracle"],[150,"SQLite"]],
             "arc-webfront": [[200, "Coffeescript"], [130, "JavaScript"], [100, "NodeJS"], [110, "Grunt"], [170, "Bower"]],
-            "arc-others": [[200, "Git"], [210, "Yoeman"], [280, "Markdown"], [260, "Evernote"],[300,"Java"]]
+            "arc-others": [[200, "Git"], [210, "Yoeman"], [280, "Markdown"], [260, "Evernote"],[300,"Java"]],
+            "arc-test":[[250,"Fitness"],[200,"Nose"]]        
         },
         d = 30,
         v = 550,
