@@ -111,9 +111,14 @@ img[src='http://icon.cnzz.com/img/pic1.gif'] {
     *display: inline;
     *zoom: 1;
 }
-
-.hidden {
-    visibility: hidden;
+.footertj {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%;
+    background:#999;
+    text-align: center;
 }
 
 /* End misc styles */
