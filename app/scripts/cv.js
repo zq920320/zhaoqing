@@ -87,36 +87,37 @@ var CV = {
         f.push(u),
         f.push(a);
         var c = [{
-            kind: "Python",
+            kind: "test",
             score: "80",
             color: "#97BE0D"
         },
         {
-            kind: "WebFront",
-            score: "55",
+            kind: "python",
+            score: "70",
             color: "#D84F5F"
         },
         {
-            kind: "Database",
-            score: "70",
+            kind: "webfront",
+            score: "60",
             color: "#88B8E6"
         },
         {
-            kind: "Others",
+            kind: "database",
             score: "65",
             color: "#998566"
         },{
-            kind: "Test",
+            kind: "others",
             score:"70",
             color:"#003DFF"
         }],
         h = e.set(),
         p = {
+            "arc-test":[[250,"Fitness"],[200,"Nose"],[250,"Jenkins"],[225,"Robotium"],[150,"LoadRunner"]],
             "arc-python": [[250, "Tonado"], [200, "Web.py"],  [300, "Scrapy"]],
-            "arc-database": [[300, "MongoDB"], [250, "Reids"], [150, "MySQL"],[150,"Oracle"],[150,"SQLite"]],
             "arc-webfront": [[200, "Coffeescript"], [130, "JavaScript"], [100, "NodeJS"], [110, "Grunt"], [170, "Bower"]],
-            "arc-others": [[200, "Git"], [210, "Yoeman"], [280, "Markdown"], [260, "Evernote"],[300,"Java"]],
-            "arc-test":[[250,"Fitness"],[200,"Nose"]]        
+            "arc-database": [[300, "MongoDB"], [250, "Reids"], [150, "MySQL"],[150,"Oracle"],[150,"SQLite"]],
+            "arc-others": [[200, "Git"], [210, "Yoeman"], [280, "Markdown"], [260, "Evernote"],[300,"Java"],[200,"Go"]]
+                    
         },
         d = 30,
         v = 550,
@@ -301,7 +302,7 @@ var CV = {
         t = [
                 [200, 15, "#97BE0D", "2010.09 - 2014.07，哈尔滨", "东北林业大学 本科", "软件工程"], 
                 [350, 20, "#88B8E6", "2013.03 - 2013.08，哈尔滨", "鑫联华软件技术有限公司", "研发实习生"], 
-                [500, 23, "#88B8E6", "2013.10 - 至今，哈尔滨", "宝利明威", "Python&&测试"]
+                [500, 23, "#88B8E6", "2013.10 - 至今，北京", "北京宝利明威软件股份有限公司", "Python&&测试"]
             ],
         n = [["#97BE0D", 400, "学习"], ["#88B8E6", 530, "工作经历"]],
         r = "Hiragino Sans GB, Microsoft YaHei, sans-serif";

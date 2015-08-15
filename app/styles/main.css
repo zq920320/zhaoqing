@@ -283,22 +283,22 @@ img[src='http://icon.cnzz.com/img/pic1.gif'] {
     background: black;
 }
 
-.skillsList .js {
-    background:#97BE0D;
+.skillsList .database {
+    background:#998566;
 }
 
-.skillsList .css {
+.skillsList .python {
     background:#D84F5F;
 }
 
-.skillsList .html {
+.skillsList .webfront {
     background:#88B8E6;
 }
 
 .skillsList .others {
-    background:#998566;}
+    background:#003DFF;}
 .skillsList .test {
-    background:#003DFF;
+    background:#97BE0D;
 }
 #skillsArc {
     float:left;

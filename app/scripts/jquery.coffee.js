@@ -73,7 +73,7 @@
 	};
 
 	$.fn.coffee.defaults = {
-		steams				: ['jQuery','HTML5','$.fn()','var','CODING','THINKING','DREAMING','Python','CoffeeScript','Git','Yoeman','Grunt','Bower','Markdown','Evernote','MongoDB','Redis','MySQL','Tornado','WebPy','Scrapy','$.find();','AngularJS','$.ajax()','NodeJS','Sencha','Supervisor','Highcharts','Highstock','Datatables','Bootstrap','Tor','apkTools','UpYun','Jekyll','Pygments','Nose','Mako','Getui','Jasmine','Express' ,'Koa' ,'Passport' ,'AceTemplate' ,'KISSY','SeaJs'], 
+		steams				: ['jQuery','HTML5','$.fn()','var','CODING','THINKING','DREAMING','Python','CoffeeScript','Git','Yoeman','Grunt','Bower','Markdown','Evernote','MongoDB','Redis','MySQL','Tornado','WebPy','Scrapy','$.find();','AngularJS','$.ajax()','NodeJS','Sencha','Supervisor','Highcharts','Highstock','Datatables','Bootstrap','Tor','apkTools','UpYun','Jekyll','Pygments','Nose','Mako','Getui','Jasmine','Express' ,'Koa' ,'Passport' ,'AceTemplate' ,'KISSY','SeaJs','GO','Fitnesse','Robotium','Jenkins'], 
 		steamsFontFamily	: ['Verdana','Geneva','Comic Sans MS','MS Serif','Lucida Sans Unicode','Times New Roman','Trebuchet MS','Arial','Courier New','Georgia'],
 		steamFlyTime		: 18000 , /*Steam飞行的时间,单位 ms 。（决定steam飞行速度的快慢）*/
 		makeSteamInterval	: 800 , /*制造Steam时间间隔,单位 ms.*/
